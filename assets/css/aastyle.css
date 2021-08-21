@@ -137,9 +137,13 @@
 .aa-video .aa-video__class-list__title {
   padding-left: 8px;
 }
+.aa-video .aa-related-skills .aa-related-skills__badge a {
+  display: inline-block;
+  text-decoration: none;
+  color: #e7e7e7;
+}
 .aa-video .aa-related-skills .aa-related-skills__badge div {
   background-color: #002333;
-  color: #e7e7e7;
 }
 .aa-video .aa-related-classess__warpper {
   margin-top: 1rem;
@@ -262,6 +266,10 @@
   .aa-profile .am-user-profile-info .am-info {
     flex-direction: column-reverse;
   }
+}
+
+.classes-page .banner {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=aastyle.css.map */

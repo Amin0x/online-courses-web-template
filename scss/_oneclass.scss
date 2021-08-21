@@ -15,9 +15,14 @@
     .aa-related-skills{
         
         .aa-related-skills__badge{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: #e7e7e7;
+            }
+
             div{
                 background-color: #002333;
-                color: #e7e7e7;
             }
         }
     }
