@@ -1,0 +1,141 @@
+
+.aa-profile{
+    max-width: 1000px; 
+    margin: 50px auto 0;
+
+    .btn-follow {
+        text-rendering: optimizeLegibility;
+        -webkit-text-size-adjust: 100%;
+        margin: 0;
+        font: inherit;
+        vertical-align: baseline;
+        display: inline-block;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -webkit-appearance: none;
+        outline: none;
+        font-weight: 700;
+        white-space: nowrap;
+        font-family: gt walsheim pro, helvetica, arial, sans-serif;
+        border: 2px solid #3722d3;
+        box-sizing: border-box;
+        color: #3722d3;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 6px 13px 7px;
+        min-width: 75px;
+    }
+
+
+    .btn-follow:hover {
+        border: 2px solid #3722d3;
+        color: #3722d3;
+    }
+
+    .follow-stats .follow-stats-wrapper-user-stats .number {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .follow-stats .follow-stats-wrapper-user-stats .follow-stat {
+        font-weight: 400;
+    }
+
+    .am-user-profile-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .am-user-profile-info .am-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .follow-stats-wrapper-user-stats a {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    @media screen and (min-width:992px) {
+        .am-user-profile-info {
+            display: block;
+        }
+
+        .am-user-profile-info .am-info {
+            flex-direction: column-reverse;
+        }
+    }
+
+    //---------------------------------------
+
+    .btn-follow {
+        text-rendering: optimizeLegibility;
+        -webkit-text-size-adjust: 100%;
+        margin: 0;
+        font: inherit;
+        vertical-align: baseline;
+        display: inline-block;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -webkit-appearance: none;
+        outline: none;
+        font-weight: 700;
+        white-space: nowrap;
+        font-family: gt walsheim pro, helvetica, arial, sans-serif;
+        border: 2px solid #3722d3;
+        box-sizing: border-box;
+        color: #3722d3;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 6px 13px 7px;
+        min-width: 75px;
+    }
+
+
+    .btn-follow:hover {
+        border: 2px solid #3722d3;
+        color: #3722d3;
+    }
+
+    .follow-stats .follow-stats-wrapper-user-stats .number {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .follow-stats .follow-stats-wrapper-user-stats .follow-stat {
+        font-weight: 400;
+    }
+
+    .am-user-profile-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .am-user-profile-info .am-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .follow-stats-wrapper-user-stats a {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    @media screen and (min-width:992px) {
+        .am-user-profile-info {
+            display: block;
+        }
+
+        .am-user-profile-info .am-info {
+            flex-direction: column-reverse;
+        }
+    }
+}
