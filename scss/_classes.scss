@@ -2,4 +2,36 @@
     .banner{
         font-size: 16px;
     }
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    .side-filter{
+        .class-list{
+
+        }
+        .item{
+            color: #000000;
+            padding: .2rem .5rem;
+            font-size: 1rem;            
+        }
+        .item.active {
+            position: relative;
+            font-size: .9rem;   
+            font-weight: bold;
+            background-color: #565656;
+            color: #b8ffba;
+        }
+
+        // .active::before{
+        //     content: " ";
+        //     position: absolute;
+        //     top: 10px;
+        //     left: 5px;
+        //     width: 9px;
+        //     height: 9px;
+        //     border-radius: 50%;
+        //     background-color: #b8ffba;
+        // }
+    }
 }

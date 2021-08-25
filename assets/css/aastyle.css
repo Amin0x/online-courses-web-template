@@ -271,5 +271,20 @@
 .classes-page .banner {
   font-size: 16px;
 }
+.classes-page .title h1 {
+  font-size: 1.5rem;
+}
+.classes-page .side-filter .item {
+  color: #000000;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+}
+.classes-page .side-filter .item.active {
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #565656;
+  color: #b8ffba;
+}
 
 /*# sourceMappingURL=aastyle.css.map */
