@@ -1,0 +1,35 @@
+.aa__footer{
+    font-size: 1rem;
+    background-color: black;
+
+    .footer{
+        width: 100%;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .top_layer{
+
+    }
+
+    .address{
+
+    }
+
+    .Links_footer{
+
+    }
+
+    @media screen and (minwidth: 800){
+        .aa__footer-container{
+            width: 50%;
+        }
+    }
+
+    @media screen and (minwidth: 1200){
+        .aa__footer-container{
+            width: 25%;
+        }
+    }
+}

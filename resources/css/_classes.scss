@@ -1,0 +1,54 @@
+.classes-page{
+    .banner{
+        font-size: 16px;
+    }
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    .side-filter{
+        .class-list{
+
+        }
+        .item{
+            color: #000000;
+            padding: .2rem .5rem;
+            font-size: 1rem;            
+        }
+        .item.active {
+            position: relative;
+            font-size: .9rem;   
+            font-weight: bold;
+            background-color: #565656;
+            color: #b8ffba;
+        }
+
+       
+    }
+}
+
+.aa-related-classess__warpper{
+    .aa-related-classess__card{
+        .aa-related-classess__card-content{
+            display: flex;
+            flex-direction: column;
+
+            .card-tilte{
+                font-size: 1rem;
+                font-weight: 700;
+                margin-top: 0.5rem;
+            }
+
+            .teacher{
+                font-size: 0.9rem;
+                margin-top: 0.5rem;
+            }
+
+            .students, .time {
+                font-size: 0.9rem;
+                font-weight: 400;
+            }
+
+        }
+    }
+}

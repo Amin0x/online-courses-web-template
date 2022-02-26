@@ -1,0 +1,43 @@
+.aa-video{
+    .aa-video__class-list__item{
+        display: flex;
+        padding: 4px;
+        border: 1px solid #ffffff00;
+
+        a{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .title{
+            margin-right: 1rem;
+        }
+    }
+    .aa-video__class-list__item:hover{
+        border: 1px solid #b2b3b5;
+    }
+
+    .aa-video__class-list__title{
+        padding-left: 8px;
+    }
+
+    .aa-related-skills{
+        
+        .aa-related-skills__badge{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: #e7e7e7;
+            }
+
+            div{
+                background-color: #002333;
+            }
+        }
+    }
+
+    .aa-related-classess__warpper{
+        margin-top: 1rem;
+    }
+}
